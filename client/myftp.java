@@ -57,6 +57,7 @@ public class myftp {
                 System.out.println(serverMsg);
                 break;
             } // if
+            System.out.println("");
         } // while
         client.close();
     } // main

@@ -47,9 +47,11 @@ public class myftpserver {
 
         String clientName = br.readLine();
 
-        System.out.println("Client of " + clientName + " Server of " + serverName);
+        System.out.println("Client of " + clientName + ", Server of " + serverName);
 
         int z = (int) (Math.random() * 100) + 1;
+
+        System.out.println("Server number = " + z);
 
         int a = z + x;
 
